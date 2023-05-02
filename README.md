@@ -31,7 +31,7 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 [lil-course-url]: https://www.linkedin.com/learning/c-sharp-and-dot-net-essential-training
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2453257/2453257-1649176347537-16x9.jpg
 
-## Classnotes 🙋‍♀️:
+## My Classnotes 🙋‍♀️:
 
 #3 .NET garbage collection <br> - The .NET platform manages and reclaims blocks of memory <br> - Performs efficient allocation on the application "heap" <br> - Happens automatically, as you don't have to manually release memory <br> - Few exceptions, like operating system resources (files, network connections)
 
