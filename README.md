@@ -41,14 +41,33 @@ GC.Collect();
 
 In line19, never need to do this in our app, this functio is provided for mainly testing purposes. This is only for demonstration purposes.
 
-#2-2 Basic string formatting
+#1-2 Basic string formatting
 indexes: "{0},{1}",var1,var2
 interpolation: $"{var1},{var2}"
 Formatting: $"{var1, [alignment]:[format][precision]}"
-#3-4 Searching
+#2-4 Searching
 
 - IndexOf() - returns the index of the first occurrence of a substring
 - LastIndexOf() - returns the index of the last occurrence of a substring
 - StartsWith() - returns true if the string starts with the specified substring
 - EndsWith() - returns true if the string ends with the specified substring
 - StartsWith("", StringComparison.CurrentCultureIgnoreCase) - returns true if the string starts with the specified substring, ignoring case
+
+#3-2 Formatting numerical data
+General format is {index[,alignment]:[format]}
+Common types are N (Number), G (General), F (Fixed-point),
+E (Exponential), D (Decimal), P (Percent), X (Hexadecimal),
+C (Currency in local format)
+
+```C#
+Console.WriteLine($"{val1:D}, {val1:N}, {val1:F}, {val1:G}");
+Console.WriteLine($"{val2:E}, {val2:N}, {val2:F}, {val2:G}");
+```
+
+Add a number after the format to specify precision
+
+```C#
+Console.WriteLine($"{val1:D6}, {val1:N2}, {val1:F1}, {val1:G3}");
+```
+
+check more detail on `standard numeric format strings` on Microsoft Docs
