@@ -8,7 +8,11 @@ Regex CapWords = new Regex(@"[A-Z]\w+");
 
 // TODO: Regular expressions can be used to replace content in strings
 // in addition to just searching for content
+string result = CapWords.Replace(teststr1, "[$&]");
+string result2 = CapWords.Replace(teststr1, "**");
 
+Console.WriteLine(result);
+Console.WriteLine(result2);
 
 // TODO: Replacement text can be generated on the fly using MatchEvaluator
 // This is a delegate that computes the new value of the replacement
