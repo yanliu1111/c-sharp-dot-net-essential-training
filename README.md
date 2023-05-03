@@ -33,10 +33,22 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 ## My Classnotes 🙋‍♀️:
 
-#3 .NET garbage collection <br> - The .NET platform manages and reclaims blocks of memory <br> - Performs efficient allocation on the application "heap" <br> - Happens automatically, as you don't have to manually release memory <br> - Few exceptions, like operating system resources (files, network connections)
+#1-3 .NET garbage collection <br> - The .NET platform manages and reclaims blocks of memory <br> - Performs efficient allocation on the application "heap" <br> - Happens automatically, as you don't have to manually release memory <br> - Few exceptions, like operating system resources (files, network connections)
 
 ```C#
 GC.Collect();
 ```
 
 In line19, never need to do this in our app, this functio is provided for mainly testing purposes. This is only for demonstration purposes.
+
+#2-2 Basic string formatting
+indexes: "{0},{1}",var1,var2
+interpolation: $"{var1},{var2}"
+Formatting: $"{var1, [alignment]:[format][precision]}"
+#3-4 Searching
+
+- IndexOf() - returns the index of the first occurrence of a substring
+- LastIndexOf() - returns the index of the last occurrence of a substring
+- StartsWith() - returns true if the string starts with the specified substring
+- EndsWith() - returns true if the string ends with the specified substring
+- StartsWith("", StringComparison.CurrentCultureIgnoreCase) - returns true if the string starts with the specified substring, ignoring case
