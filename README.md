@@ -80,3 +80,17 @@ Files are one of those operating systme resources that the garbage collector can
 **EnumerateDirectories**() is a recursive function that will return all the directories in a given path, including all subdirectories.
 **EnumerateFiles**() is a recursive function that will return all the files in a given path, including all subdirectories.
 **EnumerateFileSystemEntries**() is a recursive function that will return all the files and directories in a given path, including all subdirectories.
+
+#5 regex .NET
+
+- Finding patterns: IsMatch(), Match(), Matches()<br>
+  **isMatch**() returns boolean <br>
+  **Match**() returns what the actual matches are <br>
+  **Matches**() returns a collection of matches <br>
+- Replacing patterns: Replace()
+- Regex timeouts: Regex.InfiniteMatchTimeout, Regex.InfiniteMatchTimeout
+  since regular expressions are not one of the default name spaces included in every project, I have to explicityly include the regular expression at the top of the file.
+
+  ```C#
+   using System.Text.RegularExpressions;
+  ```
