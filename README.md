@@ -94,3 +94,8 @@ Files are one of those operating systme resources that the garbage collector can
   ```C#
    using System.Text.RegularExpressions;
   ```
+
+  #5-4 RegexMatchTimeoutException
+
+- Exception handling: try/catch/finally
+- Regex.MatchTimeoutException is thrown when a regular expression pattern exceeds a specified time-out interval.
