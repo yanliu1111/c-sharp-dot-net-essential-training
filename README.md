@@ -74,5 +74,9 @@ check more detail on `standard numeric format strings` on Microsoft Docs
 
 #4-1 CreateFiles
 Use the **"using" construct** to automatically close a file when done and associated file reference when this Using context block completes.
-
 Files are one of those operating systme resources that the garbage collector can automatically close for us.
+
+#4-4 Enumerating files and directories
+**EnumerateDirectories**() is a recursive function that will return all the directories in a given path, including all subdirectories.
+**EnumerateFiles**() is a recursive function that will return all the files in a given path, including all subdirectories.
+**EnumerateFileSystemEntries**() is a recursive function that will return all the files and directories in a given path, including all subdirectories.
