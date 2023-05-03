@@ -71,3 +71,8 @@ Console.WriteLine($"{val1:D6}, {val1:N2}, {val1:F1}, {val1:G3}");
 ```
 
 check more detail on `standard numeric format strings` on Microsoft Docs
+
+#4-1 CreateFiles
+Use the **"using" construct** to automatically close a file when done and associated file reference when this Using context block completes.
+
+Files are one of those operating systme resources that the garbage collector can automatically close for us.
