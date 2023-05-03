@@ -1,9 +1,14 @@
 # C# and .NET Essential Training
 
 This is the repository for the LinkedIn Learning course C# and .NET Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
-
-![C# and .NET Essential Training][lil-thumbnail-url]
-
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%;"
+    src="csharpanddotnet.jpg" 
+    alt="Our logo">
+</img>
 Microsoft .NET is a modern, cross-platform framework for developing applications for the web, desktop, and mobile devices. This course gives an introduction to some of the features of .NET that makes building applications easier, more performant, and more productive. Veteran technologist Joe Marini demonstrates how to use built-in capabilities of .NET such as string processing, data collection types, number and date formatting, reading and writing files, and even working with regular expressions. By using these built-in features, developers can focus on their core application logic and less on having to build common capabilities from scratch.
 
 ## Instructions
@@ -29,7 +34,6 @@ Senior Director of Product and Engineering
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joe-marini).
 
 [lil-course-url]: https://www.linkedin.com/learning/c-sharp-and-dot-net-essential-training
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2453257/2453257-1649176347537-16x9.jpg
 
 ## My Classnotes 🙋‍♀️:
 
